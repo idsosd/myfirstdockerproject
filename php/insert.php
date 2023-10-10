@@ -1,6 +1,5 @@
 <?php
-require "db/dbconnection.class.php";
-
+//mysql-database bewerken m.b.v. mysqli
 $host = 'db';
 $dbn = 'php-app';
 $user = 'USER';
@@ -20,7 +19,8 @@ echo "Error: " . $sql . ":-" . mysqli_error($conn);
 }
 mysqli_close($conn);
 }
-
+//mysql-database bevragen m.b.v. PDO
+require "db/dbconnection.class.php";
 $dbconnect = new dbconnection();
 $sql = "SELECT * FROM users ";
 $query = $dbconnect -> prepare($sql);

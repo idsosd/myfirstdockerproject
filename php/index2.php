@@ -1,5 +1,5 @@
 <?php
-//maak de connectie beschikbaar in dit bestand
+//maak de PDO-connectie beschikbaar in dit bestand
 require "db/dbconnection.class.php";
 //maak een nieuwe connectie aan in de variabele $dbconnect
 $dbconnect = new dbconnection();
