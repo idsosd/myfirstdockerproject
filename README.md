@@ -1,4 +1,4 @@
-# myfirstdockerproject met Apache, php, MySQL en phpMyAdmin
+## myfirstdockerproject met Apache, php, MySQL en phpMyAdmin
 Met deze code kun je een redelijk eenvoudige Docker-container aanmaken met de volgende functionaliteiten:
 - apache webserver met de recentste versie van php 8
 - mysql-database server met MySQLi- en PDO-extensie
