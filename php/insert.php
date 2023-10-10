@@ -1,9 +1,6 @@
 <?php
 //mysql-database bewerken m.b.v. mysqli
-$host = 'db';
-$dbn = 'php-app';
-$user = 'USER';
-$pass = 'PASS';
+require "db/dbmysqli.php";
 $conn = new mysqli($host, $user, $pass,$dbn);
 if(isset($_POST['submit']))
 {

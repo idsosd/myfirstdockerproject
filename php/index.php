@@ -1,8 +1,5 @@
 <?php
-$host = 'db';
-$dbn = 'php-app';
-$user = 'USER';
-$pass = 'PASS';
+require "db/dbmysqli.php";
 $conn = new mysqli($host, $user, $pass,$dbn);
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
