@@ -1,4 +1,6 @@
 <?php
+require "db/dbconnection.class.php";
+
 $host = 'db';
 $dbn = 'php-app';
 $user = 'USER';
@@ -18,4 +20,13 @@ echo "Error: " . $sql . ":-" . mysqli_error($conn);
 }
 mysqli_close($conn);
 }
+
+$dbconnect = new dbconnection();
+$sql = "SELECT * FROM users ";
+$query = $dbconnect -> prepare($sql);
+$query -> execute() ;
+$recset = $query -> fetchAll(PDO::FETCH_ASSOC);
+echo "<pre>";
+print_r($recset);
+echo "</pre>";
 ?>

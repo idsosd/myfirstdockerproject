@@ -7,5 +7,7 @@ CREATE TABLE `users` (
 ALTER TABLE `users`
 ADD PRIMARY KEY (`id`);
 ALTER TABLE `users`
-MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
-INSERT INTO `users` (`name`, `email`, `mobile`) VALUES ('Ids Osinga', 'ip.osinga@alfa-college.nl', '0651211871');
+MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1;
+INSERT INTO `users` (`name`, `email`, `mobile`) VALUES ('Ids Osinga', 'ip.osinga@alfa-college.nl', '0612345678');
+INSERT INTO `users` (`name`, `email`, `mobile`) VALUES ('Jörgen Nieboer', 'aj.nieboer@alfa-college.nl', '0687654321');
+INSERT INTO `users` (`name`, `email`, `mobile`) VALUES ('Francisca Fouchier', 'fj.fouchier@alfa-college.nl', '0687651234');
