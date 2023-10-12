@@ -9,7 +9,11 @@ Als je meerdere versies van deze containers wilt maken, dan moet je per versie d
 2. db: container_name (regel 15)
 3. phpmyadmin: container_name (regel 27)
 
-In de files db/dbconnection.class.php en db/dbmysqli.php moet je de `$host = 'db'` aanpassen naar de naam van db: container_name (zie 2.)
+## Wat je er bij krijgt
+index.php is een eenvoudig contactformulier
+insert.php verwerkt het contactformulier
+index2.html
+
 ## Hoe te gebruiken
 * download de code via de zip-file
 * pak de zip-file uit en hernoem de map waarin de file 'docker-compose.yml' en de map 'php' zitten; dat wordt nl. ook de naam van de Docker-container
