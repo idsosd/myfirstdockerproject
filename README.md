@@ -24,4 +24,4 @@ De map ***php*** is de root van je webserver; in deze map zit 'als service van d
 * pak de zip-file uit en hernoem de map waarin de file ***docker-compose.yml*** en de map ***php*** zitten; dat wordt nl. ook de naam van de Docker-container
 * open de map in je favoriete IDE, bijv. VSC of phpStorm
 * open de terminal en geef het commando `docker-compose up`
-* de map ***php*** is de root van je website
+* de map ***php*** is de root van je website; als je niks wilt met de files in deze map, gooi je ze weg en maak je je eigen files; wil je gebruik maken van de database, dan kun je de db-map laten staan met 1 van de 2 connectie-files, afhankelijk van of je gebruik wilt maken van PDO of mysqli
